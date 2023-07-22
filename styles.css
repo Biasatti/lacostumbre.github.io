@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0px;
     background-color: #f0f0f0;
   }
   
@@ -26,11 +26,13 @@
 main {
   /* Agregamos estilos para el contenedor principal */
   padding: 20px;
-  background-color: #transparent;
+  background-color: transparent;
+  /* Agrega otros estilos según sea necesario */
+
+  /* Estilos para diseño responsivo */
   display: flex;
   justify-content: center; /* Centramos horizontalmente el contenido */
   align-items: center; /* Centramos verticalmente el contenido */
-  height: 100vh; /* Altura del contenedor principal (ejemplo: 100% del viewport) */
 }
 
 .main-image {
