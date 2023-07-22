@@ -24,8 +24,19 @@
   
   /* Estilos para el cuerpo de la página */
   main {
-    /* Agrega aquí los estilos para el cuerpo de la página */
+    /* Agregamos estilos para el contenedor principal */
+    padding: 20px;
+    background-color: #fff;
   }
+  
+  main img {
+    /* Agregamos estilos para la imagen */
+    max-width: 100%; /* La imagen se ajustará al ancho máximo del contenedor */
+    height: auto; /* La altura se ajustará proporcionalmente */
+    display: block; /* Para asegurarnos de que la imagen no tenga espacios extra */
+    margin: 0 auto; /* Centrar la imagen horizontalmente dentro del contenedor */
+  }
+  
   
   /* Estilos para el pie de página */
   footer {
@@ -36,6 +47,6 @@
   body {
     background-image: url('https://github.com/Biasatti/lacostumbre.github.io/blob/main/assets/BG.png?raw=true');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     background-position: center;
   }  
