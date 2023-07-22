@@ -6,7 +6,13 @@
     padding: 0px;
     background-color: #f0f0f0;
   }
-  
+
+img {
+  max-width: 100%; /* La imagen se ajustará al ancho máximo del contenedor */
+  height: auto; /* La altura se ajustará proporcionalmente */
+}
+
+
   .left img {
     width: 100px; /* Ajusta el ancho del gif animado según tus necesidades */
     height: auto; /* Ajusta la altura proporcionalmente */
