@@ -26,7 +26,7 @@
 main {
   /* Agregamos estilos para el contenedor principal */
   padding: 20px;
-  background-color: #fff;
+  background-color: #transparent;
   display: flex;
   justify-content: center; /* Centramos horizontalmente el contenido */
   align-items: center; /* Centramos verticalmente el contenido */
