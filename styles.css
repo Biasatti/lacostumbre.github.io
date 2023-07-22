@@ -1,0 +1,41 @@
+/* Estilos para el encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .left img {
+    width: 100px; /* Ajusta el ancho del gif animado según tus necesidades */
+    height: auto; /* Ajusta la altura proporcionalmente */
+  }
+  
+  .right a {
+    margin-right: 16px;
+  }
+  
+  .right img {
+    width: 32px; /* Ajusta el tamaño de los iconos según tus necesidades */
+    height: 32px; /* Ajusta el tamaño de los iconos según tus necesidades */
+  }
+  
+  
+  /* Estilos para el cuerpo de la página */
+  main {
+    /* Agrega aquí los estilos para el cuerpo de la página */
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    /* Agrega aquí los estilos para el pie de página */
+  }
+
+
+  body {
+    background-image: url('https://github.com/Biasatti/lacostumbre.github.io/blob/main/assets/BG.png?raw=true');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }  
