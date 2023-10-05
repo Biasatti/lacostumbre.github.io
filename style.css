@@ -13,7 +13,15 @@
         transform: translateX(15%);
         width: 80%; 
     }
+        .footer-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .footer-left, .footer-right {
+        margin: 5px 0;
+    }
 }
 
 /* NavBar */
